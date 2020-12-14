@@ -1,0 +1,65 @@
+.welcome-hearder {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  /* flex-direction: column : 위 아래 교차축을 토대로 위아래 중앙에 오게 하기 ; */
+}
+.welcome-haeder__title {
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.welcome-haeder__text {
+  width: 55%;
+  opacity: 0.7;
+  margin-bottom: 90px;
+  /* width : 50% 두줄로 만들기  */
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+#login-form input {
+  border: none;
+  font-size: 18px;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+  background-color: burlywood;
+}
+#ogin-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+#login-form input:focus {
+  border-color: var(--yellow);
+  cursor: pointer;
+}
+#login-form input[type="submit"] {
+  background-color: blanchedalmond;
+  padding: 20px 0px;
+  border-radius: 5px;
+  margin-top: -15px;
+}
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
+#login-form input[type="password"] {
+  margin-bottom: 50px;
+}
+
+#login-form input[type="submit"]:hover {
+  color: black;
+  background-color: rgba(197, 187, 187, 0.9);
+}

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+/* Components */
+@import "componets/status-bar.css";
+@import "variables.css";
+/* Screens */
+@import "screens/login.css";
+/* reset.css는 html에 import하지 않고 css파일에 import하는 게 좋다 */
+@import "componets/nav-bar.css";
+@import "componets/screen-header.css";
+@import "screens/friends.css";
+@import "componets/user-component.css";
+@import "componets/badge.css";
+@import "screens/find.css";
+@import "componets/icon-row.css";
+@import "screens/more.css";
+@import "componets/alt-screen-headers.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "componets/no-mobiel.css";
+body {
+  color: #2e363e;
+  background-color: burlywood;
+  font-family: "Open Sans", sans-serif;
+}
+.main-screen {
+  padding: var(--horizontla-space);
+  /* padding: 0px 13px; */
+
+  /* margin-top: -40px; */
+}
+.main-chat-screen {
+  padding: var(--horizontla-space);
+}
